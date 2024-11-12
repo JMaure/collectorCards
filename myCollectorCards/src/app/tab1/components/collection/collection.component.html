@@ -1,0 +1,9 @@
+<ion-card>
+  <ion-card-title>{{collection.name}}</ion-card-title>
+
+  <ion-card-content>
+    <ion-item *ngFor="let card of collection.cards">
+      <app-card [card]="card"></app-card>
+    </ion-item>
+  </ion-card-content>
+</ion-card>

@@ -7,6 +7,9 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { CollectionListComponent } from './components/collection-list/collection-list.component';
+import { CollectionComponent } from './components/collection/collection.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   imports: [
@@ -17,6 +20,6 @@ import { SharedModule } from '../shared/shared.module';
     Tab1PageRoutingModule,
     SharedModule
   ],
-  declarations: [Tab1Page]
+  declarations: [Tab1Page, CollectionListComponent, CollectionComponent, CardComponent]
 })
 export class Tab1PageModule {}

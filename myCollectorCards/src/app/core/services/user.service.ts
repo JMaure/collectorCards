@@ -12,6 +12,13 @@ export class UserService {
 
   constructor() { }
 
+  public get user(): UserType {
+    return this._user;
+  }
+  public set user(value: UserType) {
+    this._user = value;
+  }
+
   public populateUser() {
     this._user = {
       id: "moi",
