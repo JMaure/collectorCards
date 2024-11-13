@@ -76,6 +76,56 @@ export class UserService {
           price: 10,
           nbOwned: 1 
         }]
+      },
+      {
+        id: 2,
+        name: "animaux 2",
+        nbCards: 5,
+        cards: [{
+          id: 1,
+          name: "cerf",
+          image: "image/animaux/cerf.png",
+          rarity: 1,
+          collectionId: 1,
+          price: 10,
+          nbOwned: 1 
+        }, 
+        {
+          id: 2,
+          name: "ours",
+          image: "image/animaux/ours.png",
+          rarity: 1,
+          collectionId: 1,
+          price: 10,
+          nbOwned: 1 
+        }, 
+        {
+          id: 3,
+          name: "aigle",
+          image: "image/animaux/aigle.png",
+          rarity: 1,
+          collectionId: 1,
+          price: 10,
+          nbOwned: 1 
+        }, 
+        {
+          id: 4,
+          name: "loup",
+          image: "image/animaux/loup.png",
+          rarity: 1,
+          collectionId: 1,
+          price: 10,
+          nbOwned: 1 
+        }, 
+        {
+          id: 5,
+          name: "puma",
+          image: "image/animaux/puma.png",
+          rarity: 1,
+          collectionId: 1,
+          price: 10,
+          nbOwned: 1 
+        }]
       }]
     };
   }

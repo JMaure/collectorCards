@@ -1,9 +1,16 @@
 <ion-card>
-  <ion-card-title>{{collection.name}}</ion-card-title>
+  <ion-card-title class="title">{{collection.name}}</ion-card-title>
 
   <ion-card-content>
-    <ion-item *ngFor="let card of collection.cards">
-      <app-card [card]="card"></app-card>
-    </ion-item>
+
+    <ion-grid>
+      <ion-row>
+        @for(card of collection.cards; track card.name) {
+          <ion-col size="4"><app-card [card]="card"></app-card></ion-col>
+        }
+      </ion-row>
+    </ion-grid>
+
   </ion-card-content>
+  
 </ion-card>
